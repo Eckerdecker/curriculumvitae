@@ -125,10 +125,10 @@ h1 {
 }
 
 section {
-    border: 1px solid #ddd;
+    border: 1px solid #bbb;
     box-shadow: #ddd 0.2rem 0.2rem 0.4rem;
     position: relative;
-    padding: 1.2rem 0.8rem 0.8rem;
+    padding: 1.8rem 0.8rem 0.8rem;
     font-size: 1.4rem;
     margin-bottom: 2.4rem;
 }
@@ -136,23 +136,24 @@ section {
 section h2 {
     display: inline;
     position: absolute;
-    line-height: 1.6rem;
-    top: -0.8rem;
+    line-height: 2.4rem;
+    top: -1.2rem;
     left: 0.8rem;
-    background-color: #fff;
+    background-color: #333;
     padding: 0 0.8rem;
-    text-transform: uppercase;
     font-size: 1.6rem;
     letter-spacing: 0.2rem;
-    color: #888;
+    font-weight: normal;
+    color: #fff;
 }
 section h3 {
     font-size: 1.6rem;
-    margin: 0.8rem 0;
+    margin: 0.8rem 0.4rem;
 }
 
 section p {
     line-height: 2rem;
+    margin-top: 0.4rem;
     padding-left: 2.8rem;
     position: relative;
 }
@@ -174,6 +175,7 @@ section p a {
 @media print {
     html {
         background-color: none;
+        zoom: 0.95;
     }
 
     body {
@@ -201,7 +203,6 @@ section p a {
     }
 
     section {
-        border: 1px solid #ddd;
         box-shadow: none;
         margin-bottom: 1.6rem;
     }
