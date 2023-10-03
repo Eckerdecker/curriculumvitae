@@ -116,8 +116,12 @@ h1 {
     gap: 2.4rem;
 }
 
-.column {
-    flex: 1;
+.left-column {
+    flex: 0.4
+}
+
+.right-column {
+    flex: 0.6;
 }
 
 section {
